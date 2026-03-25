@@ -1,25 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { QueryProvider } from './app/providers/QueryProvider';
+import ErrorBoundary from './shared/components/ErrorBoundary/ErrorBoundary';
+import { FineSelectionPage } from './features/fines-selection';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <QueryProvider>
+      <ErrorBoundary>
+        <FineSelectionPage />
+      </ErrorBoundary>
+    </QueryProvider>
   );
 }
 
