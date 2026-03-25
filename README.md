@@ -1,3 +1,10 @@
+# Demo
+
+<img width="1395" height="988" alt="image" src="https://github.com/user-attachments/assets/9dfb076e-d01d-4fac-885a-06a7d4cf77c3" />
+<img width="558" height="1023" alt="image" src="https://github.com/user-attachments/assets/5d8b5a7b-1297-476c-a86a-747e133e8296" />
+<img width="1149" height="1038" alt="image" src="https://github.com/user-attachments/assets/fb0d71fe-d6b2-41ed-b9d4-97bd3d21664b" />
+
+
 # Traffic Fines Payment Selection
 
 A React application for selecting and managing traffic fines with dynamic payment calculation, business rule validation, and discount logic.
